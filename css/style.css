@@ -1,6 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 .navi_gation {
-    background-color: #F1DAC4;
+    background-color: rgba(241, 218, 196, 0.5);  
+}
+
+.navi_gation, .about_me, h1, h2, .contact_form {
     font-family: 'Quicksand', sans-serif;
 }
+
+.text_one {
+    background-color: rgba(241, 218, 196, 0.5);
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #F1DAC4;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #AF5D63;
+  }
+  
+  .contact_form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
