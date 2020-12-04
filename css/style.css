@@ -12,6 +12,11 @@
     background-color: rgba(241, 218, 196, 0.5);
 }
 
+.title_text {
+  letter-spacing: 10px;
+}
+
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -40,4 +45,12 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+  }
+
+  .page_footer {
+    background-color: rgba(241, 218, 196, 0.5);
+  }
+
+  .fb_ic, .tw_ic, .gplus_ic, .li_ic, .ins_ic, .pin_ic {
+    color: gray;
   }
