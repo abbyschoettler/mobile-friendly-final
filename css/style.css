@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+body {
+  background-color: rgba(54, 60, 42, 0.6);
+}
+
 .navi_gation {
     background-color: rgba(241, 218, 196, 0.5);  
 }
